@@ -2,15 +2,15 @@
 
 **Using R produce the following solution........**
 
-Used data structure to organize the following information;
+Data structure was used to organize the following information of the team;
 
-- [Your names]
-- [Your slack username]
-- [Your email]
-- [Your hobby]
-- [Your countries]
-- [Your discipline]
-- [Your preferred programming language]
+- [Names]
+- [Slack username]
+- [Email]
+- [Hobby]
+- [Countries]
+- [Discipline]
+- [Preferred programming language]
 
-Don’t use functions, loops, conditionals or any complex concepts
-Your code should include a final print statement that prints the organized output in a logical and understandable way
+Functions, loops, conditionals or any complex concepts were not used in the organization.
+The code include a final print statement that prints the organized output in a logical and understandable way.
