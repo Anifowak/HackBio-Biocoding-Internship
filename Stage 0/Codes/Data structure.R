@@ -1,5 +1,5 @@
 #creating a list of information for start codon team
-my_team <- list(names = "Samuel Anifowose", "Tomi Fadairo", 
+my_team <- list(names = "Samuel Anifowose", "Tomilayo Fadairo", 
                 slack_username = "Sam", "TomiDbeloved", 
                 email = "anifowak@yahoo.com", "Oluwaseuntomilayo9@gmail.com"
                 hobby = "Studying", "Reading"
