@@ -1,6 +1,6 @@
 # HackBio-Biocoding-Internship
 
-**Using R produce the following solution........**
+**R was used to produce the following solution........**
 
 Data structure was used to organize the following information of the team;
 
