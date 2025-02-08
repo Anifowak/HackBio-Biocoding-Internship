@@ -1,7 +1,6 @@
 # HackBio-Biocoding-Internship
 
 In R programming, data structures are used and essential for storing, manipulating, and analyzing data. 
-
 A data structure is a way to organize and store data in a computer so that it can be efficiently accessed and modified. 
 
 # Common Data Structures are;
