@@ -24,13 +24,13 @@ Translation is crucial because it’s how genetic information, stored in the DNA
 In essence, translation is the bridge between the genetic information encoded in DNA and the functional proteins that carry out cellular activities.
 
 # Function 2
-- [Logistic Population Growth]
+## Logistic Population Growth
 
 # Function 3
-- [Carrying capacity]
+## Carrying capacity
 
 # Function 4
-- [Hamming Distance]
+## Hamming Distance
 
 The Hamming distance is a measure of the difference between two strings of the same length. Specifically, it counts the number of positions at which the corresponding characters in the two strings are different.
 Hamming distance is a fundamental concept in computer science and mathematics, with applications ranging from error detection to genetic analysis.
