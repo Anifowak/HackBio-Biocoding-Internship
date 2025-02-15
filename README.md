@@ -1,5 +1,5 @@
 # Function 1
-- [DNA translation to Protein]
+## DNA translation to Protein
 
 Translation is the process by which the genetic information encoded in messenger RNA (mRNA) is used to build a protein. It's one of the key steps in the gene expression.
 
