@@ -4,9 +4,9 @@
 Translation is the process by which the genetic information encoded in messenger RNA (mRNA) is used to build a protein. It's one of the key steps in the gene expression.
 
 **The Process**
-- [Initiation]
-- [Elongation]
-- [Termination]
+- Initiation
+- Elongation
+- Termination
 
 **Result**
 
@@ -15,11 +15,11 @@ The result of translation is a polypeptide chain that folds into a functional pr
 **Why Translation is Important**
 
 Translation is crucial because it’s how genetic information, stored in the DNA, is expressed as proteins, which are the functional molecules in cells. Proteins perform a vast array of functions, including:
-- [Enzymatic activities]
-- [Structural support]
-- [Signal transduction]
-- [Transport]
-- [Immune response]
+- Enzymatic activities
+- Structural support
+- Signal transduction
+- Transport
+- Immune response
 
 In essence, translation is the bridge between the genetic information encoded in DNA and the functional proteins that carry out cellular activities.
 
