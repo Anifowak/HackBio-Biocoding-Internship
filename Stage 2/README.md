@@ -48,7 +48,7 @@ What are the functions of the top 5 upregulated genes and top 5 downregulated ge
 Task Code 2.7: Public Health
 NHANES is a program run by the CDC to assess the health and nutritional status of adults and children in the US. It combines survey questions and physical examinations, including medical and physiological measurements and laboratory tests, and examines a representative sample of about 5,000 people each year. The data is used to determine the prevalence of diseases and risk factors, establish national standards, and support epidemiology studies and health sciences research. This information helps to develop public health policy, design health programs and services, and expand the nation's health knowledge.
 Dataset here [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/nhanes.csv]
-Data Dictionary [https://github.com/HackBio-Internship/public_datasets/blob/main/R/nhanes_dd.csv]
+Data Dictionary [https://github.com/Anifowak/HackBio-Biocoding-Internship/blob/main/Stage%202/nhanes_dd.csv]
 Tasks:
 Process all NA (either by deleting or by converting to zero)
 Visualize the distribution of BMI, Weight, Weight in pounds (weight *2.2) and Age with an histogram.
