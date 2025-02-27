@@ -19,8 +19,7 @@ The functional impact was computed as SIFT scores and the structural impact was 
 Dataset Here:
 **SIFT Dataset**
 **FoldX Dataset**
-
-##**Task**
+**Task**
 
 Import both sift and foldx datasets; in both datasets, create a column specific_Protein_aa which will be a cantenation of the Protein and Amino_acid columns such that If you have Protein A5A607 and Amino_acid E63D, you have specific_Protein_aa A5A607_E63D
 Using the specific_Protein_aa column, merge sift and foldx dataset into one final dataframe.
