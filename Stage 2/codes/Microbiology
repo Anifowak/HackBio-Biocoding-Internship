@@ -1,5 +1,5 @@
-# install and load necessary libriers
-install.packages("tidyverse")
+# install and load necessary libriers 
+install.packages ("tidyverse")
 
 # Load the tidyverse package
 library(tidyverse)
