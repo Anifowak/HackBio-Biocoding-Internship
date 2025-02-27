@@ -1,5 +1,5 @@
-# install and load necessary libriers 
-install.packages ("tidyverse")
+# install and load necessary libraries 
+install.packages("tidyverse")
 
 # Load the tidyverse package
 library(tidyverse)
@@ -11,12 +11,28 @@ metadata_url <- "https://raw.githubusercontent.com/HackBio-Internship/2025_proje
 data <- read_tsv(url)
 metadata <- read_tsv(metadata_url)
 
-# Step 2: Preprocess the data
-merged_data <- data %>%
+# Let's first check the column names in both datasets
+print("Data columns:")
+print(colnames(data))
+print("\nMetadata columns:")
+print(colnames(metadata))
+
+# Step 2: Data needs to be reshaped from wide to long format first
+data_long <- data %>%
+  pivot_longer(cols = -time,
+               names_to = "Strain",
+               values_to = "OD600") %>%
+  rename(Time = time)
+
+# Now merge with metadata and create Mutation column
+merged_data <- data_long %>%
   left_join(metadata, by = "Strain") %>%
-  mutate(Time = as.numeric(Time)) %>%
+  mutate(Time = as.numeric(Time),
+         # Create Mutation column based on MUT...3 (or another appropriate mutation column)
+         Mutation = MUT...3) %>%
   arrange(Time)
 
+# Continue with the rest of the analysis...
 # Step 3: Plot growth curves
 ggplot(merged_data, aes(x = Time, y = OD600, color = Mutation, group = interaction(Strain, Mutation))) +
   geom_line() +
@@ -40,9 +56,11 @@ results <- merged_data %>%
 results_wide <- results %>%
   pivot_wider(names_from = Mutation, values_from = Time_to_Capacity, names_prefix = "Time_")
 
-ggplot(results_wide, aes(x = Time_-, y = Time_+)) +
+# ggplot
+ggplot(results_wide, aes(x = `Time_-`, y = `Time_+`)) +
   geom_point() +
-  labs(x = "Time to Carrying Capacity (Knock-Out)", y = "Time to Carrying Capacity (Knock-In)", title = "Scatter Plot of Time to Carrying Capacity") +
+  labs(x = "Time to Carrying Capacity (Knock-Out)", y = "Time to Carrying Capacity (Knock-In)", 
+       title = "Scatter Plot of Time to Carrying Capacity") +
   theme_minimal()
 
 # Step 6: Generate box plot
@@ -61,10 +79,3 @@ if (t_test_result$p.value < 0.05) {
 } else {
   print("There is no statistically significant difference between knock-out and knock-in strains.")
 }
-
-# Step 8: Observations
-# Observations:
-# 1. Knock-out strains generally take longer to reach carrying capacity compared to knock-in strains.
-# 2. The scatter plot shows a positive correlation, but knock-out strains have higher time.
-# 3. The box plot confirms that knock-out strains have a wider distribution of times than knock-in strain.
-# 4. The t-test indicates a statistically significant difference (p < 0.05), this suggest that the mutation impacts growth dynamics.
