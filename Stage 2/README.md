@@ -10,6 +10,9 @@ Generate a box plot of the time it takes to reach carrying capacity for the knoc
 Is there a statistical difference in the time it takes the knock out strains to reach their maximum carrying capacity compared to the knock in strains
 What do you see? Explain your observations as comments in your code
 
+**Linkedin video link**: **https://www.linkedin.com/posts/tomilayo-fadairo_microbiology-r-dataanalysis-activity-7301203287268044802-sXm-?utm_source=share&utm_medium=member_ios&rcm=ACoAAD1NCRwB4Gy_puwDIeyupvlreDZI5d6DdEw**
+
+
 ---
 
 # Task Code 2.4: Biochemistry & Oncology
