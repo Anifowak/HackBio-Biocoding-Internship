@@ -7,6 +7,7 @@ Study the data [https://raw.githubusercontent.com/HackBio-Internship/2025_projec
 - In your feature selection step, reduce the number of features to select to 90, 80, 70, 60, 50, 40, 30, 20 and 10. How does the MSE behave with the reducing number of features?
 - Generate a plot of the number of features against the mse values
 
+---
 
 **Project 2: Anatomy and Physiology [Cancer]**
 
@@ -16,6 +17,7 @@ Dataset [https://raw.githubusercontent.com/PacktPublishing/Machine-Learning-in-B
 - Using PCA and K-Mean clustering, classify and cluster the patients.
 - Do you think there are other subclasses within the dataset?
 
+---
 
 **Project 3: Anatomy and Physiology [Diabetes]**
 
