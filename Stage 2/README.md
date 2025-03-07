@@ -20,8 +20,8 @@ What do you see? Explain your observations as comments in your code
 Proteins structures are known to be strongly connected to their functions. However, at the amino acid level, not all amino acids contribute to structure and function equally. Galardini and colleagues decided to investigate the impact of all possible individual, non synonymous nonsense mutations on the structure and function of protein.
 The functional impact was computed as SIFT scores and the structural impact was calculated as FoldX Score (in kCal/mol).
 Dataset Here:
-**SIFT Dataset**
-**FoldX Dataset**
+**SIFT Dataset** [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/sift.tsv]
+**FoldX Dataset** [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/foldX.tsv]
 **Task**
 
 Import both sift and foldx datasets; in both datasets, create a column specific_Protein_aa which will be a cantenation of the Protein and Amino_acid columns such that If you have Protein A5A607 and Amino_acid E63D, you have specific_Protein_aa A5A607_E63D
