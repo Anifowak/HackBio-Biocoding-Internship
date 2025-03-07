@@ -16,7 +16,7 @@ This is the description of the dataset [https://github.com/Anifowak/HackBio-Bioc
 
 ---
 
-# Task Code 2.4: Biochemistry & Oncology
+# Task Code 2.2: Biochemistry & Oncology
 ---
 Proteins structures are known to be strongly connected to their functions. However, at the amino acid level, not all amino acids contribute to structure and function equally. Galardini and colleagues decided to investigate the impact of all possible individual, non synonymous nonsense mutations on the structure and function of protein.
 The functional impact was computed as SIFT scores and the structural impact was calculated as FoldX Score (in kCal/mol).
@@ -44,7 +44,7 @@ Hint: Using the amino acid column, find a way to select the first amino acid. So
 
 ---
 
-# Task Code 2.6: Transcriptomics
+# Task Code 2.3: Transcriptomics
 ---
 This is a processed RNAseq dataset involving reading in quantitated gene expression data from an RNA-seq experiment, exploring the data using base R functions and then interpretation. The dataset contains an experiment between a diseased cell line and diseased cell lines treated with compound X. The difference in expression change between the two health status is computed as Fold change to log 2 (Log2FC) and the significance of each is computed in p-value.
 Access Dataset [https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7175af/raw/1a507c4c3f9f1baaa3a69187223ff3d3050628d4/results.txt]
@@ -59,7 +59,7 @@ Access Dataset [https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7
 
 ---
 
-# Task Code 2.7: Public Health
+# Task Code 2.4: Public Health
 ---
 NHANES is a program run by the CDC to assess the health and nutritional status of adults and children in the US. It combines survey questions and physical examinations, including medical and physiological measurements and laboratory tests, and examines a representative sample of about 5,000 people each year. The data is used to determine the prevalence of diseases and risk factors, establish national standards, and support epidemiology studies and health sciences research. This information helps to develop public health policy, design health programs and services, and expand the nation's health knowledge.
 Dataset here [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/nhanes.csv]
