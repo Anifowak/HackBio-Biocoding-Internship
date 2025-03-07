@@ -1,6 +1,6 @@
 # Task Code 2.1: Microbiology
 ---
-Look at this dataset here.
+Look at this [https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/mcgc.tsv] here.
 This is the description of the dataset . [open in a new tab, not a file to be downloaded]
 Plot all the growth curves of OD600 vs Time for the different Strains with the following instructions
 For each strain, plot a growth curve of the the knock out (-) an knock in (+) strain overlaid on top of each other
