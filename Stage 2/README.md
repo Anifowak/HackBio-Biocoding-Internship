@@ -2,13 +2,14 @@
 ---
 Look at this [https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/mcgc.tsv] here.
 This is the description of the dataset [https://github.com/Anifowak/HackBio-Biocoding-Internship/blob/main/Stage%202/mcgc_METADATA.txt]
-Plot all the growth curves of OD600 vs Time for the different Strains with the following instructions
-For each strain, plot a growth curve of the the knock out (-) an knock in (+) strain overlaid on top of each other
-Using your function from last stage, determine the time to reach the carrying capacity for each strain/mutant
-Generate a scatter plot of the time it takes to reach carrying capacity for the knock out and the knock in strains
-Generate a box plot of the time it takes to reach carrying capacity for the knock out and the knock in strains
-Is there a statistical difference in the time it takes the knock out strains to reach their maximum carrying capacity compared to the knock in strains
-What do you see? Explain your observations as comments in your code
+
+- Plot all the growth curves of OD600 vs Time for the different Strains with the following instructions
+- For each strain, plot a growth curve of the the knock out (-) an knock in (+) strain overlaid on top of each other
+- Using your function from last stage, determine the time to reach the carrying capacity for each strain/mutant
+- Generate a scatter plot of the time it takes to reach carrying capacity for the knock out and the knock in strains
+- Generate a box plot of the time it takes to reach carrying capacity for the knock out and the knock in strains
+- Is there a statistical difference in the time it takes the knock out strains to reach their maximum carrying capacity compared to the knock in strains
+- What do you see? Explain your observations as comments in your code
 
 **Linkedin video link**: **https://www.linkedin.com/posts/tomilayo-fadairo_microbiology-r-dataanalysis-activity-7301203287268044802-sXm-?utm_source=share&utm_medium=member_ios&rcm=ACoAAD1NCRwB4Gy_puwDIeyupvlreDZI5d6DdEw**
 
@@ -26,7 +27,7 @@ Dataset Here:
 
 **FoldX Dataset** [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/foldX.tsv]
 
-**Task**
+**Task**:
 - Import both sift and foldx datasets; in both datasets, create a column specific_Protein_aa which will be a cantenation of the Protein and Amino_acid columns such that If you have Protein A5A607 and Amino_acid E63D, you have specific_Protein_aa A5A607_E63D
 - Using the specific_Protein_aa column, merge sift and foldx dataset into one final dataframe.
 According to the authors;
@@ -35,7 +36,7 @@ A FoldX score greater than 2 kCal/mol is deleterious
 - Using the criteria above, Find all mutations that have a SIFT score below 0.05 and FoldX Score above 2 (i.e: Mutations that affect both structure and function)
 - Study the amino acid substitution nomenclature [https://atlasgeneticsoncology.org/teaching/30067/nomenclature-for-the-description-of-mutations-and-other-sequence-variations]
 - Investigate for the amino acid that has the most functional and structural impact
-Hint: Using the amino acid column, find a way to select the first amino acid. Solution here
+Hint: Using the amino acid column, find a way to select the first amino acid. Solution here- [https://reactgo.com/r-get-first-character-string/]
 - Generate a frequency table for all the amino acids
 - Using the amino frequency table above, generate a barplot and pie chart to represent the frequency of the amino acids.
 - Briefly describe the amino acid with the highest impact on protein structure and function
@@ -46,12 +47,13 @@ Hint: Using the amino acid column, find a way to select the first amino acid. So
 # Task Code 2.6: Transcriptomics
 ---
 This is a processed RNAseq dataset involving reading in quantitated gene expression data from an RNA-seq experiment, exploring the data using base R functions and then interpretation. The dataset contains an experiment between a diseased cell line and diseased cell lines treated with compound X. The difference in expression change between the two health status is computed as Fold change to log 2 (Log2FC) and the significance of each is computed in p-value.
-Access Dataset Here
+Access Dataset [https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7175af/raw/1a507c4c3f9f1baaa3a69187223ff3d3050628d4/results.txt]
+
 **Task**:
-Generate a volcano plot. (Hint search for volcano plot online)
-Determine the upregulated genes (Genes with Log2FC > 1 and pvalue < 0.01)
-Determine the upregulated genes (Genes with Log2FC < -1 and pvalue < 0.01)
-What are the functions of the top 5 upregulated genes and top 5 downregulated genes. (Use genecards)
+- Generate a volcano plot. (Hint search for volcano plot online)
+- Determine the upregulated genes (Genes with Log2FC > 1 and pvalue < 0.01)
+- Determine the upregulated genes (Genes with Log2FC < -1 and pvalue < 0.01)
+- What are the functions of the top 5 upregulated genes and top 5 downregulated genes. (Use genecards)
 
 **Linkedin Video Link:** **https://www.linkedin.com/posts/tomilayo-fadairo_genomics-geneexpression-volcanoplot-activity-7301277549043576832-wODk?utm_source=share&utm_medium=member_ios&rcm=ACoAAD1NCRwB4Gy_puwDIeyupvlreDZI5d6DdEw**
 
