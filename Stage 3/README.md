@@ -1,6 +1,6 @@
 **Project 1: Age Prediction in Humans**
 
-Study the data [https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/methylation.data.csv]
+Dataset **https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/methylation.data.csv**
 
 - There are 1000 CpG sites to be used to determine the age of 108 individuals (Homo sapiens)
 - Using any regression model, predict the age of the patients (last columns)
