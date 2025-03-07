@@ -1,7 +1,7 @@
 # Task Code 2.1: Microbiology
 ---
-Look at this [https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/mcgc.tsv] here.
-This is the description of the dataset [https://github.com/Anifowak/HackBio-Biocoding-Internship/blob/main/Stage%202/mcgc_METADATA.txt]
+Look at this **https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/mcgc.tsv** here.
+This is the description of the dataset **https://github.com/Anifowak/HackBio-Biocoding-Internship/blob/main/Stage%202/mcgc_METADATA.txt**
 
 - Plot all the growth curves of OD600 vs Time for the different Strains with the following instructions
 - For each strain, plot a growth curve of the the knock out (-) an knock in (+) strain overlaid on top of each other
@@ -13,7 +13,6 @@ This is the description of the dataset [https://github.com/Anifowak/HackBio-Bioc
 
 **Linkedin video link**: **https://www.linkedin.com/posts/tomilayo-fadairo_microbiology-r-dataanalysis-activity-7301203287268044802-sXm-?utm_source=share&utm_medium=member_ios&rcm=ACoAAD1NCRwB4Gy_puwDIeyupvlreDZI5d6DdEw**
 
-
 ---
 
 # Task Code 2.2: Biochemistry & Oncology
@@ -23,9 +22,9 @@ The functional impact was computed as SIFT scores and the structural impact was 
 
 Dataset Here:
 
-**SIFT Dataset** [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/sift.tsv]
+**SIFT Dataset** **https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/sift.tsv**
 
-**FoldX Dataset** [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/foldX.tsv]
+**FoldX Dataset** **https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/foldX.tsv**
 
 **Task**:
 - Import both sift and foldx datasets; in both datasets, create a column specific_Protein_aa which will be a cantenation of the Protein and Amino_acid columns such that If you have Protein A5A607 and Amino_acid E63D, you have specific_Protein_aa A5A607_E63D
@@ -34,9 +33,9 @@ According to the authors;
 A SIFT Score below 0.05 is deleterious
 A FoldX score greater than 2 kCal/mol is deleterious
 - Using the criteria above, Find all mutations that have a SIFT score below 0.05 and FoldX Score above 2 (i.e: Mutations that affect both structure and function)
-- Study the amino acid substitution nomenclature [https://atlasgeneticsoncology.org/teaching/30067/nomenclature-for-the-description-of-mutations-and-other-sequence-variations]
+- Study the amino acid substitution nomenclature **https://atlasgeneticsoncology.org/teaching/30067/nomenclature-for-the-description-of-mutations-and-other-sequence-variations**
 - Investigate for the amino acid that has the most functional and structural impact
-Hint: Using the amino acid column, find a way to select the first amino acid. Solution here- [https://reactgo.com/r-get-first-character-string/]
+Hint: Using the amino acid column, find a way to select the first amino acid. Solution here - **https://reactgo.com/r-get-first-character-string/**
 - Generate a frequency table for all the amino acids
 - Using the amino frequency table above, generate a barplot and pie chart to represent the frequency of the amino acids.
 - Briefly describe the amino acid with the highest impact on protein structure and function
@@ -47,7 +46,7 @@ Hint: Using the amino acid column, find a way to select the first amino acid. So
 # Task Code 2.3: Transcriptomics
 ---
 This is a processed RNAseq dataset involving reading in quantitated gene expression data from an RNA-seq experiment, exploring the data using base R functions and then interpretation. The dataset contains an experiment between a diseased cell line and diseased cell lines treated with compound X. The difference in expression change between the two health status is computed as Fold change to log 2 (Log2FC) and the significance of each is computed in p-value.
-Access Dataset [https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7175af/raw/1a507c4c3f9f1baaa3a69187223ff3d3050628d4/results.txt]
+Access Dataset **https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7175af/raw/1a507c4c3f9f1baaa3a69187223ff3d3050628d4/results.txt**
 
 **Task**:
 - Generate a volcano plot. (Hint search for volcano plot online)
@@ -62,8 +61,8 @@ Access Dataset [https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7
 # Task Code 2.4: Public Health
 ---
 NHANES is a program run by the CDC to assess the health and nutritional status of adults and children in the US. It combines survey questions and physical examinations, including medical and physiological measurements and laboratory tests, and examines a representative sample of about 5,000 people each year. The data is used to determine the prevalence of diseases and risk factors, establish national standards, and support epidemiology studies and health sciences research. This information helps to develop public health policy, design health programs and services, and expand the nation's health knowledge.
-Dataset here [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/nhanes.csv]
-Data Dictionary [https://github.com/Anifowak/HackBio-Biocoding-Internship/blob/main/Stage%202/nhanes_dd.csv]
+Dataset here **https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/nhanes.csv**
+Data Dictionary **https://github.com/Anifowak/HackBio-Biocoding-Internship/blob/main/Stage%202/nhanes_dd.csv**
 
 **Tasks**:
 - Process all NA (either by deleting or by converting to zero)
