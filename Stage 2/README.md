@@ -27,19 +27,19 @@ Dataset Here:
 **FoldX Dataset** [https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/datasets/foldX.tsv]
 
 **Task**
-Import both sift and foldx datasets; in both datasets, create a column specific_Protein_aa which will be a cantenation of the Protein and Amino_acid columns such that If you have Protein A5A607 and Amino_acid E63D, you have specific_Protein_aa A5A607_E63D
-Using the specific_Protein_aa column, merge sift and foldx dataset into one final dataframe.
+- Import both sift and foldx datasets; in both datasets, create a column specific_Protein_aa which will be a cantenation of the Protein and Amino_acid columns such that If you have Protein A5A607 and Amino_acid E63D, you have specific_Protein_aa A5A607_E63D
+- Using the specific_Protein_aa column, merge sift and foldx dataset into one final dataframe.
 According to the authors;
 A SIFT Score below 0.05 is deleterious
 A FoldX score greater than 2 kCal/mol is deleterious
-Using the criteria above, Find all mutations that have a SIFT score below 0.05 and FoldX Score above 2 (i.e: Mutations that affect both structure and function)
-Study the amino acid substitution nomenclature
-Investigate for the amino acid that has the most functional and structural impact
+- Using the criteria above, Find all mutations that have a SIFT score below 0.05 and FoldX Score above 2 (i.e: Mutations that affect both structure and function)
+- Study the amino acid substitution nomenclature [https://atlasgeneticsoncology.org/teaching/30067/nomenclature-for-the-description-of-mutations-and-other-sequence-variations]
+- Investigate for the amino acid that has the most functional and structural impact
 Hint: Using the amino acid column, find a way to select the first amino acid. Solution here
-Generate a frequency table for all the amino acids
-Using the amino frequency table above, generate a barplot and pie chart to represent the frequency of the amino acids.
-Briefly describe the amino acid with the highest impact on protein structure and function
-What can you say about the structural property and functional property of amino acids with more than 100 occurences.
+- Generate a frequency table for all the amino acids
+- Using the amino frequency table above, generate a barplot and pie chart to represent the frequency of the amino acids.
+- Briefly describe the amino acid with the highest impact on protein structure and function
+- What can you say about the structural property and functional property of amino acids with more than 100 occurences.
 
 ---
 
